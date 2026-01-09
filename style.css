@@ -1,0 +1,47 @@
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+.my-box{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.grid-task,
+.input-grid-task{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.input-grid-task{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.name-input,
+.date-input{
+  font-size: 16px;
+  padding: 8px 15px;
+}
+
+.add-btn{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn{
+  background-color: darkred;
+  font-size: 16px;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
